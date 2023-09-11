@@ -1,0 +1,47 @@
+/* App.css */
+
+/* Style for the navigation bar */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+/* Style for dog list */
+ul.dog-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.dog-list li {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+ul.dog-list li img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+/* Style for dog details */
+h2 {
+  margin-top: 20px;
+}
+
+/* Style for 404 page */
+h2.error {
+  color: red;
+}
